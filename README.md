@@ -11,7 +11,12 @@ Bootstrap Plugin for Jquery Scrollfade
 * Jquery Viewport  : https://github.com/tuupola/jquery_viewport
 
 #Example
-CSS 
+You can find an example file in this repository.  Feel free to use and modify the code.
+
+* JSFiddle Example: http://jsfiddle.net/02728t8v/5/
+
+#How to use bootstrap.jquery.scrollfade
+<b>CSS</b> 
 
 Two elements need to be given positioning and size settings.  The `body` needs to be fixed to all borders or Scrollfade will not work.  `#content-scroll` needs to be relative so the content area can be correctly sized to navbar.
 ```
@@ -31,8 +36,7 @@ body {
   height:100%;
 }
 ```
-
-HTML
+<b>HTML</b>
 
 The basic html structure is simliar to that needed to create a Bootstrap navbar component.(Note: Bootstrap classes have been left out) 
 ```
@@ -45,8 +49,7 @@ The basic html structure is simliar to that needed to create a Bootstrap navbar 
   </div>
 </body>
 ```
-
-Javascript
+<b>JavaScript</b>
 
 To init add `.scrollfadeBoot()` with your navigation sections target component. 
 ```
