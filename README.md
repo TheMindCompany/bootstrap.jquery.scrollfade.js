@@ -1,7 +1,8 @@
 bootstrap.jquery.scrollfade.js
-==============================
-
-Bootstrap Plugin for Jquery Scrollfade
+-
+Bootstrap Plugin for Jquery Scrollfade  
+<b>Author:</b> @Brandon L. Clark  
+_Use as your own desire and saftey._
 
 #Requires
 
