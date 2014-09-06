@@ -10,6 +10,7 @@
      Jquery 2.1.1     : http://code.jquery.com/jquery-2.1.1.js
      Bootstrap 3.2.0  : https://github.com/twbs/bootstrap/tree/v3.2.0
      Scrollfade 0.1.4 : https://github.com/gdbate/jquery-scrollfade/tree/0.1.4
+     Jquery Viewport  : https://github.com/tuupola/jquery_viewport
 */
 
 // Fix for auto activate of last nav item on load.
