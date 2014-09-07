@@ -40,7 +40,7 @@ body {
 ```
 <b>HTML</b>
 
-The basic html structure is simliar to that needed to create a Bootstrap navbar component.(Note: Bootstrap classes have been left out) 
+The basic html structure is simliar to that needed to create a Bootstrap navbar component.  The content needs to be nested in a element after the navigation.  (Note: Bootstrap classes have been left out) 
 ```
 <body>
   <nav>
@@ -53,7 +53,7 @@ The basic html structure is simliar to that needed to create a Bootstrap navbar 
 ```
 <b>JavaScript</b>
 
-To init add `.scrollfadeBootstrap()` with your navigation sections target component. 
+You need to target the element that has your nested content (eg: `$('#content-area').scrollfade()` ). To init bootstrapjquery.scrollfade.js add `.scrollfadeBootstrap()` with your navigation sections target component after `scrollfade()`. 
 ```
 $(function(){
   $('#content-scroll').scrollfade().scrollfadeBootstrap('.sh');
