@@ -51,7 +51,7 @@ The basic html structure is simliar to that needed to create a Bootstrap navbar 
 ```
 <b>JavaScript</b>
 
-To init add `.scrollfadeBoot()` with your navigation sections target component. 
+To init add `.scrollfadeBootstrap()` with your navigation sections target component. 
 ```
 $(function(){
   $('#content-scroll').scrollfade().scrollfadeBootstrap('.sh');
