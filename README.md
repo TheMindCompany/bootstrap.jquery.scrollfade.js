@@ -3,8 +3,10 @@ bootstrap.jquery.scrollfade.js
 Bootstrap Plugin for Jquery Scrollfade  
 <b>Author:</b> @Brandon L. Clark  <support@themindspot.com>
 
+#Description 
+This is a plugin for those who wish to use the `navbar` component of Bootstrap because they are using the Scrollfade plugin for jquery.  It acts like `scrollspy.js` but because of the way Scrollfade embeds data to perform its visual effect scrollspy will not work.  It also adds a smooth scroll effect for same page navigation.
+   
 #Requires
-
 * Jquery 2.1.1     : http://code.jquery.com/jquery-2.1.1.js
 * Bootstrap 3.2.0  : https://github.com/twbs/bootstrap/tree/v3.2.0
 * Scrollfade 0.1.4 : https://github.com/gdbate/jquery-scrollfade/tree/0.1.4
