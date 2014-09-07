@@ -40,7 +40,7 @@ body {
 
 The basic html structure is simliar to that needed to create a Bootstrap navbar component.(Note: Bootstrap classes have been left out) 
 ```
-<body id="content-area">
+<body>
   <nav>
     ...
   </nav>
